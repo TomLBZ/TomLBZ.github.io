@@ -1,0 +1,4 @@
+.main-wrapper{
+    left: calc(50% - 269px);
+    position: fixed;
+}    

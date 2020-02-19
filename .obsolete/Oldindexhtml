@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <hr>
+    <div class="row">
+      <div class="col-xs-6">
+        <h1>Li Bozhao</h1>
+      </div>
+      <div class="col-xs-6">
+        <p class="text-right"><a href="">Download this Page <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-xs-7">
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img class="media-object img-rounded" src="images/115X115.gif" alt="..."> </a> </div>
+          <div class="media-body">
+            <h2 class="media-heading">Intro</h2>
+            I am open to anyone as my partner:D Also willing to build any project~ </div>
+        </div>
+      </div>
+      <div class="col-xs-5 well">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : 84100256</h4>
+          </div>
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> : libozhao142857@hotmail.com</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> : RIB</h4>
+          </div>
+          <div class="col-lg-6">
+            <h4><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> : 84100256</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-8 col-lg-7">
+        <h2>Backgrounds</h2>
+        <hr>
+        <div class="row">
+        	<div class="col-xs-6"><h4>Educational</h4></div>
+        	<div class="col-xs-6">
+        	  <h4 class="text-right"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Um......</h4>
+        	</div>
+        </div>
+        <h4><span class="label label-default">INVENT</span></h4>
+        <p>Normal student. = =</p>
+        <div class="row">
+          <div class="col-xs-6">
+            <h4>Goals</h4>
+          </div>
+          <div class="col-xs-6">
+            <h4 class="text-right"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Um......</h4>
+          </div>
+        </div>
+        <h4><span class="label label-default">Build...build...build</span></h4>
+        <p>Build a project. Current idea is: Build an app that converts simple objects from their photos to 3-D modals, thereby creating an easily-accessible 3-D printing solution. It should be user-friendly just like the Camera app on our phones. The current solutions are not reconstructing but merely building an extruded boss... which is pretty useless. Also, there is no point using multiple images as it is not convenient. For example, if you have a picture of a flower, the current solution gives you an extruded flower(as in the first link), or requires multiple images for a flower being constructed(that's how 3-D scanners work). But my aim is to build a flower(in 3-D) from that single image.(Our brains are capable of doing that, but currently no app can do it.) Just do what ever our brain has been doing:) It sounds difficult though. </p>
+</div>
+      <div class="col-sm-4 col-lg-5">
+        <h2>Skill Set</h2>
+        <hr>
+        <!-- Green Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"> C#</div>
+        </div>
+        <!-- Blue Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> VB.NET</div>
+        </div>
+        <!-- Yellow Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> SOLIDWORKS</div>
+        </div>
+        <!-- Red Progress Bar -->
+        <div class="progress">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> VB</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%"> C for Arduino</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> Ps & Ai</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%"> Ae & Pr</div>
+        </div>
+</div>
+    </div>
+    <hr>
+    <h2>Past Experience</h2>
+<hr>
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-xs-5">
+            <h4>Software</h4>
+          </div>
+<div class="col-xs-5">
+            <h4 class="text-right"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Function Visualizer</h4>
+          </div>
+        </div>
+        <h4><span class="label label-default">Win32</span></h4>
+        <p>A program to visualise functions and solve simple maths problems.</p>
+        <ul>
+        	<li>Construct and solve linear and quadratic qeuations.</li>
+        	<li>Fuzzy diffrentiation and integration.</li>
+        	<li>Construct and solve parametric equations.</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-xs-5">
+            <h4>3-D Modelling</h4>
+          </div>
+          <div class="col-xs-6">
+            <h4 class="text-right"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> SC3DP</h4>
+          </div>
+        </div>
+        <h4><span class="label label-default">Eyewear</span></h4>
+        <p>A piece of eyewear. Can be found at the SC3DP official cite.</p>
+        <ul>
+          <li>Showcasing the strength of 3-D printing.</li>
+          <li>Nice(???) design.</li>
+          <li>Won an award.</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <h2>Photos</h2>
+    <hr>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-lg-4 col-sm-6 col-xs-6"><img src="images/300X200.gif" alt=""><hr class="hidden-lg"></div>
+    		<div class="col-lg-4 col-sm-6 col-xs-6"><img src="images/300X200.gif" alt=""><hr class="hidden-lg"></div>
+    		<div class="col-lg-4 col-sm-6 col-xs-6"><img src="images/300X200.gif" alt=""></div>
+    		<div class="col-lg-4 col-sm-6 col-xs-6 hidden-lg"><img src="images/300X200.gif" alt=""></div>
+    	</div>
+        <hr>
+        <div class="row">
+    		<div class="col-lg-4 col-sm-6 col-xs-6"><img src="images/300X200.gif" alt=""><hr class="hidden-lg"></div>
+    		<div class="col-lg-4 col-sm-6 col-xs-6"><img src="images/300X200.gif" alt=""><hr class="hidden-lg"></div>
+    		<div class="col-lg-4 col-sm-6 col-xs-6"><img src="images/300X200.gif" alt=""></div>
+    		<div class="col-lg-4 col-sm-6 col-xs-6 hidden-lg"><img src="images/300X200.gif" alt=""></div>
+    	</div>
+    </div>
+    <hr>
+    <h2>Contact</h2>
+    <hr>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-offset-3 col-xs-12 col-lg-6">
+      <div class="jumbotron">
+        <div class="row text-center">
+          <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12"> </div>
+          <div class="text-center col-lg-12"> 
+            <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+            <form role="form" id="feedbackForm" class="text-center">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                <span class="help-block" style="display: none;">Please enter your name.</span></div>
+              <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address">
+                <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span></div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                <span class="help-block" style="display: none;">Please enter a message.</span></div>
+              <span class="help-block" style="display: none;">Please enter a the security code.</span>
+              <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" style=" margin-top: 10px;"> Send</button>
+            </form>
+            <!-- END CONTACT FORM --> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>Copyright © Nobody. This is a template...(@Shameless Me)</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
