@@ -1,6 +1,6 @@
 function main() {
-    var canvasWidth = 1200;
-    var canvasHeight = 700;
+    var canvasWidth = 1600;
+    var canvasHeight = 900;
 
     var Engine = Matter.Engine;
     var Render = Matter.Render;
@@ -25,8 +25,8 @@ function main() {
 
     var boxAWidth = 538;
     var boxAHeight = 538;
-    var boxAOffsetY = -100;
-    var boxConstraintMargin = 10;
+    var boxAOffsetY = -150;
+    var boxConstraintMargin = 5;
     var constraintStyle = {
         strokeStyle: 'lightgray',
         lineWidth: 2
@@ -35,7 +35,7 @@ function main() {
         density: 0.1,
         frictionAir: 0.000000,
         restitution: 0.2,
-        friction: 0.5,
+        friction: 0.2,
         render: {
             sprite: {
                 texture: './images/GreenVortex_01.png'
@@ -47,7 +47,7 @@ function main() {
         bodyB: boxA,
         pointB: { x: - (boxAWidth / 4 - boxConstraintMargin), y: - (boxAHeight / 2 - boxConstraintMargin) },
         // stiffness: 0.5,
-        damping: 0.01,
+        damping: 0.02,
         render: constraintStyle
     });
     var constraint2 = Constraint.create({
@@ -77,18 +77,18 @@ function main() {
 
     function buildBalls() {
         let balls = [];
-        let ballMargin = 270;
+        let ballMargin = 550;
         let ballBottomMargin = 120;
         let ballVerticalSpan = 120;
-        let ballRadius = 20;
-        let pixelBallRadius = 128;
+        let ballRadius = 44;
+        let pixelBallRadius = 44;
 
         let firstBallX = ballMargin;
         let firstBallY = canvasHeight - ballBottomMargin - ballVerticalSpan;
         let lastBallX = canvasWidth - ballMargin;
         let MiddleBallY = canvasHeight - ballBottomMargin;
 
-        //let words = "HAPPY22THBIRTHDAY";
+        let words = "WELCOME";
         function ithBallX(idx) {
             return firstBallX + (lastBallX - firstBallX) * (idx / (words.length - 1));
         }
@@ -97,17 +97,17 @@ function main() {
             let maxRatio = 2 * (midium - Math.abs(midium - (idx / (words.length - 1))));
             return firstBallY + (MiddleBallY - firstBallY) * maxRatio;
         }
-        for (let i = 0; i < 14; i++) {//for (let i = 0; i < words.length; i++) {
+        for (let i = 0; i < words.length; i++) {
             console.log("# Add Ball", ithBallX(i), ithBallY(i));
-            var ball = Bodies.circle(ithBallX(i), ithBallY(i), ballRadius, {
+            var ball = Bodies.rectangle(ithBallX(i), ithBallY(i), ballRadius, ballRadius, {
                 density: 0.2,
-                frictionAir: 0.001,
+                frictionAir: 0.002,
                 restitution: 0.20,
-                friction: 0.01,
+                friction: 0.02,
                 render: {
                     sprite: {
                         //texture: './img/' + '[' + i + ']' + words[i] + '.png',
-                        texture: './images/BadgeLogo.scale-100.png',
+                        texture: './images/Square44x44Logo.targetsize-24_altform-unplated.png',
                         xScale: ballRadius / pixelBallRadius,
                         yScale: ballRadius / pixelBallRadius
                     }
@@ -123,7 +123,7 @@ function main() {
                 bodyB: ball,
                 pointB: { x: 0, y: -12 },
                 // stiffness: 0.2,
-                damping: 0.02,
+                damping: 0.1,
                 render: constraintStyle
             });
             balls.push(ball);
